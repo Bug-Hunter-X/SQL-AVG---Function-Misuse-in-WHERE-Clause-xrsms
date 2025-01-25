@@ -1,0 +1,1 @@
+SELECT * FROM employees WHERE department = 'Sales' AND salary > (SELECT AVG(salary) FROM employees); -- Correct use of aggregate function in subquery
