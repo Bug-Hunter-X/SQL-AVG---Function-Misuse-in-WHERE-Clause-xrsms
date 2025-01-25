@@ -1,0 +1,2 @@
+# SQL AVG() Function Misuse
+This example demonstrates a common error in SQL when using the AVG() aggregate function within the WHERE clause of a query. The incorrect query attempts to compare individual salaries to the average salary calculated across the entire table, which leads to an error. The solution provides the correct approach using a subquery.
